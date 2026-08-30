@@ -1,0 +1,22 @@
+# Provider plugins and module caches
+.terraform/
+.terraform.tfstate.lock.info
+
+# State files - may contain secrets in plaintext
+*.tfstate
+*.tfstate.*
+
+# Variable files holding credentials
+terraform.tfvars
+*.auto.tfvars
+!*.tfvars.example
+
+# Environment / credentials
+.env
+
+# Logs
+crash.log
+crash.*.log
+
+# macOS
+.DS_Store
